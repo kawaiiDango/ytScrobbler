@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <plurals name="num_scrobbles_noti">
+        <item quantity="one">%1$s scrobble</item>
+        <item quantity="other">%1$s scrobbles</item>
+    </plurals>
+    <plurals name="num_listeners">
+        <item quantity="one">%1$s ouvinte</item>
+        <item quantity="other">%1$s ouvintes</item>
+    </plurals>
+    <plurals name="num_songs">
+        <item quantity="one">%1$d canção</item>
+        <item quantity="other">%1$d canções</item>
+    </plurals>
+    <plurals name="num_weeks">
+        <item quantity="one">%1$d semana</item>
+        <item quantity="other">%1$d semanas</item>
+    </plurals>
+    <plurals name="num_months">
+        <item quantity="one">%1$d mês</item>
+        <item quantity="other">%1$d meses</item>
+    </plurals>
+    <plurals name="num_years">
+        <item quantity="one">%1$d ano</item>
+        <item quantity="other">%1$d anos</item>
+    </plurals>
+    <string name="settings">Configurações</string>
+    <string name="bug_report">Relatório de erros</string>
+    <string name="album_art">Capa do álbum</string>
+    <string name="parse_error" comment="Title parsing error for Youtube etc">Não foi possível analisar o título</string>
+    <string name="network_error">Falha na rede</string>
+    <string name="scrobble_ignored" comment="Will be prefixed by Lastfm: (e.g. Lastfm: ignored this scrobble)">Este scrobble foi ignorado</string>
+    <string name="scrobble_ignored_save_edit">O Lastfm ignorou a edição provavelmente porque o scrobble é muito antigo. Gostaria de salvar esta edição para futuros scrobbles em vez disso?</string>
+    <string name="limit_exceeded_ignored">O limite diário de scrobbles foi excedido</string>
+    <string name="required_fields_empty" comment="Shown on filling a form">Os campos obrigatórios estão vazios</string>
+    <string name="artist">Artista</string>
+    <string name="artists">Artistas</string>
+    <string name="n_artists">%1$s artistas</string>
+    <string name="top_artists">Top de artistas</string>
+    <string name="album_artist">Artista do álbum</string>
+    <string name="artist_channel" comment="Artist or youtube channel">Artista / canal</string>
+    <string name="similar_artists">Artistas semelhantes</string>
+    <string name="album_optional">Álbum (opcional)</string>
+    <string name="album">Álbum</string>
+    <string name="albums">Álbuns</string>
+    <string name="n_albums">%1$s álbuns</string>
+    <string name="top_albums">Top de álbuns</string>
+    <string name="track">Faixa</string>
+    <string name="tracks">Faixas</string>
+    <string name="n_tracks">%1$s faixas</string>
+    <string name="top_tracks">Top de faixas</string>
+    <string name="similar_tracks">Faixas semelhantes</string>
+    <string name="no_similar_tracks">Não foram encontradas faixas parecidas</string>
+    <string name="similar" comment="Similar tracks but in short">Parecidas</string>
+    <string name="artist_title" formatted="true" comment="$artist — $title">%1$s — %2$s</string>
+    <string name="state_scrobbling">A fazer scrobble agora…</string>
+    <string name="state_scrobbled">Scrobble feito com sucesso</string>
+    <string name="unscrobble">Eliminar scrobble</string>
+    <string name="state_unscrobbled">Scrobble eliminado</string>
+    <string name="state_didnt_scrobble">O scrobble falhou</string>
+    <string name="state_unrecognised_artist">Artista não reconhecido</string>
+    <string name="tap_to_edit">(Toque para editar)</string>
+    <string name="tap_to_edit_force">(Toque para editar ou forçar)</string>
+    <string name="recently_scrobbled">Scrobble recente</string>
+    <string name="recently_loved">♥ Faixas favoritadas recentes</string>
+    <string name="recents">Recentes</string>
+    <string name="graph_info">… últimos 5 meses</string>
+    <string name="enabled_apps">Apps ativadas</string>
+    <string name="almost_there">Quase lá…</string>
+    <string name="music_players">Reprodutores de música</string>
+    <string name="video_players">Apps de Transmissão de Vídeo</string>
+    <string name="other_apps">Outros apps</string>
+    <string name="choose_apps">Escolha as apps para scrobble</string>
+    <string name="offline">Offline. Os dados mostrados não são os mais recentes</string>
+    <string name="unavailable_offline">Não disponível quando estiver offline</string>
+    <string name="scrobble_services" comment="Services like lastfm, librefm, listenbrainz etc">Serviços</string>
+    <string name="recents_share" formatted="true" comment="%1= artist — track, %2= relative time (with preposition e.g. on Sep 9)">Eu estava escutando\n%1$s %2$s</string>
+    <string name="recents_share_username" formatted="true" comment="%1= artist — track, %2= relative time (with preposition e.g. on Sep 9), %3= username">%3$s estava escutando\n%1$s %2$s</string>
+    <string name="charts_share" formatted="true" comment="%1= time period (e.g. 3 months, monthly), %2= top artists/albums/tracks, %3= list of artists/albums/tracks">Meu %1$s %2$s:\n%3$s</string>
+    <string name="share_sig">(via Pano Scrobbler)</string>
+    <string name="share_this_song">Compartilhar esta música</string>
+    <string name="share">Compartilhar</string>
+    <string name="more_info">Mais informações</string>
+    <string name="search">Pesquisar</string>
+    <string name="profile">Perfil</string>
+    <string name="profile_pic">Foto de perfil</string>
+    <string name="item_options">Opções para este item</string>
+    <string name="new_player" formatted="true" comment="(%1 = App name) detected (shown in notification)">%1$s detetado</string>
+    <string name="new_player_prompt">Continuar a fazer scrobble deste app?</string>
+    <string name="no_track_url">Esta música não tem uma página no lastFM</string>
+    <string name="no_scrobbles">Nenhuma música aqui…</string>
+    <string name="no_friends">Sem amigos no lastFM ainda…</string>
+    <string name="channel_err">Erro de Scrobble</string>
+    <string name="new_app">Novo app</string>
+    <string name="no_apps_enabled">Nenhum app está ativado</string>
+    <string name="n_more" formatted="true" comment="n more( pending scrobbles)">%1$d mais</string>
+    <string name="show_all">Ver todos</string>
+    <string name="edit">Editar</string>
+    <string name="delete">excluir</string>
+    <string name="love">Favoritar</string>
+    <string name="unlove">Retirar das favoritas</string>
+    <string name="pending_scrobbles">Scrobbles Pendentes</string>
+    <string name="pending_scrobble">Scrobble pendente</string>
+    <string name="pending_scrobbles_noti">A processar scrobbles pendentes</string>
+    <string name="num_scrobbles_nav" formatted="true" comment="n scrobbles • n today">%1$s scrobbles • %2$s hoje</string>
+    <string name="friends">Amigos</string>
+    <string name="num_scrobbles_since" formatted="true">%1$s scrobbles, desde %2$s</string>
+    <string name="grant_autostart">Ativar início automático</string>
+    <string name="grant_autostart_desc" formatted="true" comment="%1= Brand name">Necessário em dispositivos %1$s, para que o scrobbler comece</string>
+    <string name="grant_notification_access">Conceder acesso às notificações</string>
+    <string name="grant_notification_access_desc">Necessário para recuperar metadados da música. Nenhum outro tipo notificação é lida</string>
+    <string name="authenticate_with_lastfm">Autenticar com Last.FM</string>
+    <string name="authenticate_with_lastfm_desc">Pode depois iniciar sessão no LibreFM, GNUFM e Listenbrainz, a partir das configurações</string>
+    <string name="rate_msg">Está a gostar desta app?</string>
+    <string name="rate_action">Avalie</string>
+    <string name="no_mail_apps">Nenhum cliente de e-mail instalado.</string>
+    <string name="loved">Favoritada</string>
+    <string name="unloved">Retirada das favoritas</string>
+    <string name="simple_edits">Edições</string>
+    <string name="n_simple_edits" formatted="true">%1$d edições</string>
+    <string name="n_regex_edits" formatted="true">%1$d edições de padrão</string>
+    <string name="n_blocked_metadata" formatted="true">%1$d metadados bloqueados</string>
+    <string name="force_remembered">Forçar scrobble (será lembrado)</string>
+    <string name="force" comment="Force scrobble but in short">Forçar</string>
+    <string name="grant_rec_perm">Por favor, conceda permissão para usar o microfone</string>
+    <string name="charts">Tabelas</string>
+    <string name="scrobble_from_mic">Scrobble do micro</string>
+    <string name="from_mic" comment="(Scrobble from mic in short, ideally less than 8 characters)">Do micro</string>
+    <string name="add_to_hs">Adicionar à página inicial</string>
+    <string name="listening">Ouvir músicas a tocar ao seu redor…</string>
+    <string name="uploading">A enviar…</string>
+    <string name="recording_failed">Falha ao iniciar a gravação. O micro pode estar ocupado ou indisponível neste dispositivo</string>
+    <string name="press_back">Pressione voltar quando terminar</string>
+    <string name="powered_acr">Fornecido por <i><b>ACR</b>Cloud</i></string>
+    <string name="details">Detalhes</string>
+    <string name="saved_as_pending">Guardado como scrobble pendente</string>
+    <string name="sort">Ordenar</string>
+    <string name="past_scrobbles">Histórico de scrobbles</string>
+    <!--  todo: don't concat  -->
+    <string name="possession" formatted="true" comment="%1= name (e.g. Reimu's)">%1$s</string>
+    <string name="my_scrobbles">Meus scrobbles</string>
+    <string name="user_scrobbles" formatted="true" comment="%1= username">Scrobbles de %1$s</string>
+    <string name="listeners">Ouvintes</string>
+    <string name="scrobbles">Scrobbles</string>
+    <string name="collapse">Fechar</string>
+    <string name="expand">Expandir</string>
+    <string name="user_loved" formatted="true" comment="%1= username">%1$s favoritou isto</string>
+    <string name="scrobbles_till" formatted="true" comment="%1= date">Scrobbles até %1$s</string>
+    <string name="from" formatted="true" comment="%1= country (displayed in friends popup)">De %1$s</string>
+    <string name="a_to_b" formatted="true" comment="%1= date %2= date">%1$s a %2$s</string>
+    <string name="weekly_range" formatted="true" comment="%1= date %2= date">semanalmente (%1$s a %2$s)</string>
+    <string name="not_found" comment="Shown in search">Não encontrado</string>
+    <string name="share_this_chart">Partilhar esta tabela</string>
+    <string name="weekly">Semanalmente</string>
+    <string name="monthly">Mensalmente</string>
+    <string name="charts_choose_week">Escolher uma semana</string>
+    <string name="charts_overall">Em geral</string>
+    <string name="charts_no_data">Sem dados para este período</string>
+    <string name="charts_no_weekly_charts">O histórico das tabelas semanais não está disponível ainda</string>
+    <string name="random">A sentir-me com sorte</string>
+    <string name="random_not_found">Nenhuma faixa encontrada</string>
+    <string name="graph_daily">Contagem diária de scrobbles</string>
+    <string name="graph_weekly">Contagem semanal de scrobbles</string>
+    <string name="graph_monthly">Contagem mensal de scrobbles</string>
+    <string name="graph_yearly">Contagem anual de scrobbles</string>
+    <string name="original">Original</string>
+    <string name="corrected">Corrigido</string>
+    <string name="digest_weekly">O meu top de scrobbles da semana passada</string>
+    <string name="digest_monthly">O meu top de scrobbles do mês passado</string>
+    <string name="s_top_scrobbles" formatted="true" comment="%1= weekly/monthly">Top %1$s de scrobbles</string>
+    <string name="my_tags">Meus marcadores</string>
+    <string name="close">Fechar</string>
+    <string name="user_tags_hint">Novo marcador</string>
+    <string name="user_tags_empty">Não adicionou nenhuma etiqueta</string>
+    <string name="info_long_press_hint">Pode também pressionar longamente uma música para abrir isto</string>
+    <string name="appwidget_loading">A carregar…</string>
+    <string name="appwidget_period">Período</string>
+    <string name="appwidget_theme">Tema</string>
+    <string name="appwidget_shadow">Sombra</string>
+    <string name="appwidget_show">Mostrar</string>
+    <string name="light">Claro</string>
+    <string name="dark">Escuro</string>
+    <string name="appwidget_alpha">Opacidade do fundo</string>
+    <string name="appwidget_refresh_every">O widget será atualizado a cada 15 minutos</string>
+    <string name="primary_color">Cor principal</string>
+    <string name="secondary_color">Cor secundária</string>
+    <string name="background_color">Cor de fundo</string>
+    <string name="same_tone">O mesmo tom para tudo</string>
+    <string name="palette_bg">Usar cor da capa do álbum para alguns planos de fundo</string>
+    <string name="edit_name" comment="name for regex pattern">Nome amigável (opcional)</string>
+    <string name="edit_regex">Padrão de regex</string>
+    <string name="edit_field" comment="Field like artist/album/track etc">Campo</string>
+    <string name="edit_replace">Substituir</string>
+    <string name="edit_first" comment="First occurrence of a pattern">Primeiro</string>
+    <string name="edit_all" comment="All occurrences of a pattern">Todos</string>
+    <string name="edit_continue">Se encontrado, continuar a corresponder com outros regexes</string>
+    <string name="edit_case_sensitive">Maiúsculas e minúsculas</string>
+    <string name="edit_regex_test">Testar</string>
+    <string name="edit_presets">Predefinições</string>
+    <string name="edit_presets_available">Predefinições disponíveis</string>
+    <string name="edit_no_presets_available">Todas as predefinições estão em uso</string>
+    <string name="edit_preset_name" formatted="true" comment="%1= preset name">Predefinição: %1$s</string>
+    <string name="edit_max_patterns" formatted="true" comment="%1= max pattern count">Limite de padrões atingido (%1$d)</string>
+    <string name="n_matches" formatted="true">%1$d correspondências</string>
+    <string name="text">Texto</string>
+    <string name="edit_regex_warning">⚠ Certifique-se de que entende <a href="https://www.google.com/search?q=regex+tutorial">java regex</a> antes de usar esta função ou use uma das <b>predefinições</b> fornecidas. As correspondências Regex são tentadas de cima para baixo</string>
+    <!-- presets-->
+    <string name="preset_explicit_track">Explícita (faixa)</string>
+    <string name="preset_explicit_album">Explícito (álbum)</string>
+    <string name="preset_album_ver_track">Versão do álbum (faixa)</string>
+    <string name="scrobbler_off">Scrobbler desativado</string>
+    <string name="scrobbler_on">Scrobbler ativado</string>
+    <string name="pref_noti_q">Pode promover a notificação, caso o ícone não apareça</string>
+    <string name="pref_noti">Notificações</string>
+    <string name="pref_lockscreen_noti">Notificações no ecrã de bloqueio</string>
+    <string name="pref_scrobble_from">Scrobble a partir de</string>
+    <string name="pref_enabled_apps_summary">ℹ️ Suporta apps que revelam metadados de música. Para evitar scrobbles duplos do Spotify, ative-os apenas num lugar.</string>
+    <string name="pref_enabled_apps_title">Escolher apps</string>
+    <string name="pref_auto_detect_summary">…iremos pedir-lhe que confirme/ignore essa app</string>
+    <string name="pref_auto_detect">Detetar automaticamente novas apps de música</string>
+    <string name="pref_delay_secs">Atraso em segundos</string>
+    <string name="pref_delay_per">Atraso em percentagem</string>
+    <string name="pref_logout">Sair</string>
+    <string name="pref_confirm_logout">ENCERRAR SESSÃO? Toque novamente</string>
+    <string name="pref_login">Iniciar sessão</string>
+    <string name="pref_about">Acerca</string>
+    <string name="pref_search_title">App de pesquisa de músicas</string>
+    <string name="pref_user_label" comment="(Like username)">Utilizador</string>
+    <string name="pref_token_label" comment="For Listenbrainz">Código de autenticação</string>
+    <string name="pref_now_playing">Enviar em reprodução</string>
+    <string name="pref_fetch_aa_desc">Para reprodutores que não fornecem esses dados. Os dados obtidos podem ser diferentes das suas etiquetas. O lastFM pode não ter dados para algumas músicas.</string>
+    <string name="pref_pixel_np_nope">Disponível apenas em dispositivos Pixel</string>
+    <string name="pref_imexport">Importar &amp; exportar</string>
+    <string name="pref_export">Exportar</string>
+    <string name="pref_export_desc">Armazena as configurações, edições e lista de bloqueio. Não guarda dados da sessão por razões de segurança. Útil para mover entre dispositivos ou compartilhar com amigos.</string>
+    <string name="pref_personalization">Personalização</string>
+    <string name="pref_themes">Temas</string>
+    <string name="pref_widget_charts">Widget no ecrã inicial - tabelas</string>
+    <string name="pref_show_albums">Mostrar nomes dos álbuns</string>
+    <string name="pref_show_albums_desc">…nos scrobbles recentes</string>
+    <string name="pref_lists">Listas</string>
+    <string name="pref_blocked_metadata">Metadados bloqueados</string>
+    <string name="pref_translate">Traduzir esta app</string>
+    <string name="export_failed">A exportação falhou</string>
+    <string name="imported">Importado</string>
+    <string name="import_options">Opções de importação</string>
+    <string name="import_settings">Importar configurações</string>
+    <string name="copied">Copiado!</string>
+    <string name="no_browser">Nenhum navegador instalado.</string>
+    <string name="no_player">Nenhum reprodutor de música instalado.</string>
+    <string name="not_running">⚠ O scrobbler foi terminado abruptamente pelo seu sistema.</string>
+    <string name="not_running_fix_action">Corrigir</string>
+    <string name="login_submit">Verificar</string>
+    <string name="scrobble">Scrobble</string>
+    <string name="acr_key">Chave de Acesso</string>
+    <string name="add_acr_key">Adicionar chave ACRCloud</string>
+    <string name="add_acr_consider">Para evitar limites de taxa de acesso, considere adicionar sua própria chave ACRcloud</string>
+    <string name="shazam_scrobbling">Para fazer scrobbles continuamente, abra o <a href="https://play.google.com/store/apps/details?id=com.shazam.android">Shazam</a> em vez disso e inicie o Auto Shazam. Certifique-se também de que o Shazam o scrobble ativado.</string>
+    <string name="pending_n_remaining" formatted="true">%1$d restantes</string>
+    <string name="submitting_loves" formatted="true">Submetendo favoritadas, %1$d restantes</string>
+    <string name="webview_error">Falha ao carregar a página (sua internet está funcionando?)</string>
+    <string name="cleared_disabled_apps">Reiniciar lista de apps desativadas</string>
+    <string name="fix_it_title">Possíveis correções</string>
+    <string name="fix_it_startup_title">Bateria / Gestores de Arranque</string>
+    <string name="fix_it_startup_desc_default">Se o seu sistema tem gestores de arranque ou de bateria, permita a listagem deste aplicativo, pois eles podem impedi-lo de funcionar em segundo plano.</string>
+    <string name="fix_it_noti_title">Ativar/desativar acesso às notificações</string>
+    <string name="fix_it_noti_desc">Esta é uma correção temporária</string>
+    <string name="fix_it_battery_title">Desativar otimização da bateria</string>
+    <string name="fix_it_battery_desc">Somente se nada mais funcionou</string>
+    <string name="fix_it_action" comment="(To open an app)">Abrir</string>
+    <!--  pro  -->
+    <string name="get_pro">Apoiar esta app</string>
+    <string name="help">Ajuda</string>
+    <string name="pro_support">Esta é uma maneira simples e rápida para utilizadores incríveis como você mostrar o seu apoio e que reconhece o valor que este aplicativo fornece.</string>
+    <string name="pro_benefits">Também receberá 🎨 Temas (19 x 19 x 20 cores) e a capacidade de 🚫 bloquear metadados a partir dos scrobbles. O nome do app será removido quando partilhar algo.</string>
+    <string name="thank_you">Muito obrigado!</string>
+    <string name="purchase_pending">A sua compra ainda não foi confirmada pelo seu provedor de pagamento. Por favor, verifique novamente após alguns minutos.</string>
+    <string name="billing_troubleshoot_title">Restaurar compra</string>
+    <string name="billing_troubleshoot">"Já comprou?
+
+As suas compras são geridas pelo Google Play. Elas estão vinculadas a uma conta do Google Play que fez uma compra. Quando instala o aplicativo num novo dispositivo com várias contas, o Google Play pode associá-lo com uma errada. A melhor solução para selecionar explicitamente a conta que possui uma compra é instalar o aplicativo a partir de um computador através da página web do Google Play:
+
+• Desinstale esta app.
+• Abra a página da Web do Google Play no seu computador.
+• Inicie sessão com a conta que fez a compra.
+• Instale este aplicativo diretamente a partir da página da web do Google Play.
+"</string>
+    <string name="billing_themes">Temas (19 x 19 x 20 cores)</string>
+    <string name="billing_block">Bloquear metadados dos scrobbles</string>
+    <string name="billing_sharing">Remover nome da app ao partilhar</string>
+</resources>
